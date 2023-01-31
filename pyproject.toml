@@ -4,7 +4,10 @@ build = "build.py"
 description = "A fast asyncio MySQL driver"
 documentation = "https://github.com/long2ice/asyncmy"
 homepage = "https://github.com/long2ice/asyncmy"
-include = ["CHANGELOG.md", "LICENSE", "README.md"]
+include = [
+    { path = "CHANGELOG.md", format = "sdist" },
+    { path = "README.md", format = "sdist" },
+]
 keywords = ["driver", "asyncio", "mysql"]
 license = "Apache-2.0"
 name = "asyncmy"
